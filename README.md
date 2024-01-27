@@ -1,6 +1,6 @@
-# py_whoare
+# py-whoare
 
-`py_whoare` is a Python library designed for performing WHOIS queries on multiple domains simultaneously. It provides an easy-to-use interface for fetching domain registration details, including registrar information, registration dates, and more, along with IP geolocation data.
+`py-whoare` is a Python library designed for performing WHOIS queries on multiple domains simultaneously. It provides an easy-to-use interface for fetching domain registration details, including registrar information, registration dates, and more, along with IP geolocation data.
 
 ## Features
 
@@ -11,15 +11,15 @@
 
 ## Installation
 
-Install `py_whoare` using pip:
+Install `py-whoare` using pip:
 
 ```bash
-pip install py_whoare
+pip install py-whoare
 ```
 
 ## Usage
 
-`py_whoare` can be used in different environments, supporting both native async environments (like Jupyter notebooks) and standard Python scripts. Here are two examples to illustrate its usage:
+`py-whoare` can be used in different environments, supporting both native async environments (like Jupyter notebooks) and standard Python scripts. Here are two examples to illustrate its usage:
 
 ### Example 1: Using `asyncio.run` (Recommended for Python 3.7+)
 
@@ -27,7 +27,7 @@ This is the simplest way to run asynchronous code. It's suitable for scripts and
 
 ```python
 import asyncio
-from py_whoare import WhoAre
+from py-whoare import WhoAre
 
 async def main():
     whoare_instance = WhoAre()
@@ -45,7 +45,7 @@ In environments where `asyncio.run` is not suitable (like in some interactive en
 
 ```python
 import asyncio
-from py_whoare import WhoAre
+from py-whoare import WhoAre
 
 async def main():
     whoare_instance = WhoAre()
@@ -63,11 +63,11 @@ finally:
 
 ## Contributing
 
-Contributions to `py_whoare` are welcome! Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information.
+Contributions to `py-whoare` are welcome! Please refer to the [Contributing Guidelines](CONTRIBUTING.md) for more information.
 
 ## License
 
-`py_whoare` is available under the MIT License. See [LICENSE](LICENSE) for more details.
+`py-whoare` is available under the MIT License. See [LICENSE](LICENSE) for more details.
 
 ## Contact
 
@@ -75,4 +75,4 @@ For any questions or feedback, please contact me at engjellavdiu01@gmail.com.
 
 ## Acknowledgements
 
-Thanks to all the contributors and users of `py_whoare`. Your support and feedback are greatly appreciated!
+Thanks to all the contributors and users of `py-whoare`. Your support and feedback are greatly appreciated!
